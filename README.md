@@ -58,3 +58,21 @@ The predicted future prices can be displayed using Plotly (a graphing library) t
 Time Series Plots: Visualizing historical data along with predicted data for easy comparison.
 
 Prediction vs Actuals: Comparing the model's predictions to the actual historical data for accuracy assessment.
+
+
+
+
+
+
+
+
+
+
+Gradient boosting is an ensemble learning method where multiple weak learners (usually decision trees) are combined to form a strong learner. The basic idea is to train a series of models, each of which corrects the errors (residuals) of its predecessor. The models are trained sequentially in such a way that each model focuses on the mistakes made by the previous models.
+
+Key Steps in Gradient Boosting:
+Start with a base model: The first model is trained on the original dataset (often a simple decision tree).
+Calculate errors: The errors (residuals) of the base model are calculated, and the next model is trained to predict these residuals.
+Iterate: New models are added in subsequent steps, where each new model tries to correct the mistakes of the ensemble.
+
+
